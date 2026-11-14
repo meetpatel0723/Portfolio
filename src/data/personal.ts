@@ -14,13 +14,13 @@ export const personal = {
   resumeUrl: "#", // TODO: link to your resume PDF
   socials: {
     github: "https://github.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username",
+    linkedin: "www.linkedin.com/in/meet-patel-086197253",
     twitter: "https://twitter.com/your-username",
   },
   stats: [
-    { value: "3+", label: "Years of experience" },
+    { value: "2.5+", label: "Years of experience" },
     { value: "10+", label: "Projects shipped" },
-    { value: "15+", label: "Technologies mastered" },
+    { value: "25+", label: "Technologies mastered" },
   ],
 } as const;
 
