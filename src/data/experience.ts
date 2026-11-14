@@ -16,45 +16,56 @@ export interface ExperienceItem {
 export const experience: ExperienceItem[] = [
   {
     id: "exp-1",
-    company: "TechCorp Inc.",
-    role: "Senior Full Stack Developer",
-    period: "2023 — Present",
-    location: "Remote",
-    summary: "Leading feature development on a B2B SaaS analytics platform used by 500+ enterprise customers.",
+    company: "Cognitive Core AI",
+    role: "Software Engineer",
+    period: "2024 - 2026",
+    location: "Ahmedabad",
+    summary: ""Developed and maintained scalable, production-ready web applications using modern full-stack technologies, focusing on performance, server-side rendering, and reliable application architecture",
     highlights: [
-      "Architected and shipped a real-time dashboard processing 2M+ events/day",
-      "Reduced frontend bundle size by 40% through code-splitting and lazy loading",
-      "Mentored two junior developers and established frontend code review standards",
-    ],
-    tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
-    current: true,
+    "Implemented SSR, SSG, and dynamic routing using Next.js for better performance and SEO",
+    "Developed responsive web applications and reusable UI components using React.js, Next.js, and TypeScript",
+    "Built and maintained REST APIs using Node.js and Express.js",
+    "Developed admin panels for managing application data, users, and business operations",
+    "Worked with PostgreSQL for database design, queries, and data management",
+    "Handled production deployments, bug fixes, and application maintenance"
+  ],
+    tech: ["Nextjs, "React", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Shadcn", "Tailwind css", "firebase"],
+    current: false,
   },
+ {
+  id: "exp-2",
+  company: "Sapphire Software Solutions",
+  role: "Full Stack Developer",
+  period: "2026",
+  location: "Ahmedabad",
+  summary: "Contributed to the development and enhancement of an established, production-level web application, building new features and backend functionality for a platform serving thousands of users.",
+  highlights: [
+    "Developed and integrated RESTful APIs using Node.js and Express.js",
+    "Implemented new features and enhancements in an existing large-scale production application",
+    "Worked on frontend components and backend functionality to improve application capabilities",
+    "Collaborated on database operations, API integrations, and existing system improvements",
+    "Worked with an established codebase while maintaining application performance and stability"
+  ],
+  tech: ["Next.js", "React", "Node.js", "Express.js", "MongoDB", "Prisma", "Sequalize"],
+  current: false
+}
   {
-    id: "exp-2",
-    company: "StartupXYZ",
-    role: "Full Stack Developer",
-    period: "2021 — 2023",
-    location: "Your City",
-    summary: "First engineering hire at an early-stage startup; built the product from MVP to Series A.",
-    highlights: [
-      "Built and launched the core product — frontend, API, and database",
-      "Implemented Stripe billing and multi-tenant authentication",
-      "Scaled the API to handle 50k daily active users",
-    ],
-    tech: ["Next.js", "GraphQL", "MongoDB", "Docker"],
-  },
-  {
-    id: "exp-3",
-    company: "Digital Agency",
-    role: "Frontend Developer",
-    period: "2019 — 2021",
-    location: "Your City",
-    summary: "Delivered marketing sites and web applications for a diverse client portfolio.",
-    highlights: [
-      "Delivered 15+ client projects with pixel-perfect responsive builds",
-      "Introduced a shared component library that cut build time by 30%",
-      "Improved average Lighthouse scores from 62 to 95 across client sites",
-    ],
-    tech: ["React", "Vue", "SCSS", "WordPress"],
-  },
+  id: "exp-3",
+  company: "Excellent WebWorld",
+  role: "Full Stack Developer",
+  period: "2026 - Present",
+  location: "Ahmedabad",
+  summary: "Working on diverse international client projects, developing scalable web applications and complex backend systems with a focus on performance, business workflows, and production-ready solutions.",
+  highlights: [
+    "Developed and maintained full-stack applications for international clients across multiple industries",
+    "Built advanced REST APIs and backend architectures using Node.js and Express.js",
+    "Developed admin panels and management systems for handling users, orders, and business operations",
+    "Implemented complex features including real-time location tracking, order management, and checkout workflows",
+    "Worked with Prisma, Sequelize, Firebase, and PostgreSQL for database management and backend integrations",
+    "Handled complex business logic, edge cases, and production scenarios to ensure application reliability",
+    "Contributed to production deployments, debugging, performance optimization, and ongoing application improvements"
+  ],
+  tech: ["Next.js", "React", "TypeScript", "Node.js", "Express.js", "Prisma", "Sequelize", "PostgreSQL", "Firebase", "Tailwind CSS"],
+  current: true
+}
 ];
