@@ -28,10 +28,10 @@ export function About() {
             <Reveal delay={0.3}>
               <div className="mt-10 grid grid-cols-2 gap-4">
                 {[
-                  { label: "Based in", value: "Your City" },
+                  { label: "Based in", value: "Ahmedabad" },
                   { label: "Focus", value: "Full-stack web" },
                   { label: "Currently", value: "Open to work" },
-                  { label: "Languages", value: "English, +1" },
+                  { label: "Languages", value: "English, +2" },
                 ].map((item) => (
                   <div
                     key={item.label}
